@@ -9,7 +9,6 @@
     background-color: #fff;
     height: 600px;
     width: 700px;
-    border: 2px solid black;
     margin-left: 400px;
     margin-top: 80px;
     border-radius: 40px;
@@ -21,14 +20,16 @@ h1{
 h4{
     text-align: center;
     background-color: #fff;
+    border-radius: 40px;
+    margin-top: 100px;
 }
 .inputbar{
     background-color: #fff;
     border-radius: 2px;
-    border: 2px solid black;
     width: 95%;
     margin-left: 20px;
-    margin-top: 25px;
+    /* margin-top: 30px; */
+    border-radius: 40px;
 
 }
 #inputt{
@@ -53,23 +54,22 @@ h4{
     height: 480px;
     width: 95%;
     background-color: white;
-    border: 2px solid black;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 20px;
     background-color: #fff;
+    overflow-y: auto;
 
 }
 .itemsc{
     height: 50px;
     width: 95%;
     background-color: #fff;
-    border: 2px solid black;
     margin-left: 20px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    gap: 10px
 
 
 }
@@ -80,14 +80,13 @@ h4{
 
 }
 .infoitem{
-    border: 2px solid black;
     width: 60%;
     height: 50px;
     background-color: #fff;
     gap: 40px;
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 
 
 }

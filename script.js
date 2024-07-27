@@ -1,9 +1,8 @@
-
 let a = document.querySelector(".submit");
 let b = document.querySelector(".items");
 a.addEventListener("click", () => {
 let text=document.getElementById("inputt").value;
-    alert("hello");
+if(text.length!=0){
     let c=document.createElement("div");
     c.setAttribute("class","itemsc");
     let info = document.createElement("div");
@@ -19,5 +18,8 @@ let text=document.getElementById("inputt").value;
     c.appendChild(info);
     c.appendChild(delb);
     b.appendChild(c);
-    
+}
+else{
+    alert("Enter any task");
+}
 })
