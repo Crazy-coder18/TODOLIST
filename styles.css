@@ -38,7 +38,7 @@ h4{
     margin-left: 100px;
     font-size: 20px;
 }
-.btn-submit{
+.submit{
     height: 40px;
     width: 100px;
     color: white;
@@ -46,7 +46,7 @@ h4{
     background-color: rgb(145, 59, 224);
     
 }
-.btn-submit:hover{
+.submit:hover{
     background-color: rgb(53, 7, 97);
 }
 .items{
@@ -85,6 +85,9 @@ h4{
     height: 50px;
     background-color: #fff;
     gap: 40px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
 
 
 }
