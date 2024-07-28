@@ -3,15 +3,16 @@
     padding: 0px;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(145, 59, 224);
+    background-color: #fff
 }
 .container{
     background-color: #fff;
-    height: 600px;
+    height: 800px;
     width: 700px;
-    margin-left: 400px;
+    margin-left: 500px;
     margin-top: 80px;
     border-radius: 40px;
+    border: 2px solid rgb(88, 194, 88);
 
 }
 h1{
